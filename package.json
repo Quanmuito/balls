@@ -1,0 +1,23 @@
+{
+  "name": "bubble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc",
+    "run-js": "./node_modules/.bin/tsc && node src/dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "jquery": "^3.5.0",
+    "node": "^14.0.0",
+    "node-module": "^2.0.0",
+    "popper": "^1.0.1",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6"
+  }
+}
